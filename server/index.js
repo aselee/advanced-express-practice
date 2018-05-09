@@ -67,5 +67,5 @@ app.listen(2222, (err) => {
     if (err) {
       return console.log("Error", err);
     }
-    console.log("Web server is now living in apartment 2222");
+    console.log("Web server is now live on 2222");
     });
