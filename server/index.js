@@ -43,6 +43,9 @@
 
 let express = require("express");
 
+let mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://aselee:Mminer!7412@ds121950.mlab.com:21950/advanced-express-practice");
 const app = express();
 
 let bodyParser = require('body-parser');
