@@ -1,4 +1,4 @@
-let express = "express";
+let express = require("express");
 const router = express.Router();
 let {list,show,create,update,remove} = require(
     "../controllers/productController");
